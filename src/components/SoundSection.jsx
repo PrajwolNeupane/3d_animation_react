@@ -3,9 +3,9 @@ import React from "react";
 function SoundSection() {
 
   const handleLearnMore = () => {
-    const element = document.querySelector(".sound-section");
+    const element = document.querySelector(".display-section");
     window.scrollTo({
-      top: element?.getBoundingClientRect().top,
+      top: element?.getBoundingClientRect().bottom + 350,
       left:0,
       behavior:'smooth'
     });
